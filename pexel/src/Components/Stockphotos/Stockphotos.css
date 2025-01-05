@@ -1,0 +1,35 @@
+.photos-section{
+    width: 95%;
+    margin: auto;
+}
+.photos{
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.free-stock-photos{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+}
+.selection{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.img-container {
+    column-count: 3; /* Number of columns you want in your grid */
+    column-gap: 18px; /* No gap between columns */
+}
+
+.img-container img {
+    width: 100%;
+    margin: 0 0 18px; /* Optional: Adds spacing between images vertically */
+    display: block; /* Ensure images are block-level elements */
+}
+@media (max-width: 550px){.img-container{column-count: 2;}}
